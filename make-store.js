@@ -1,4 +1,4 @@
-// Lays out two packages in a store the way an isolated linker (Bun's isolated installs, pnpm) does, and links this
+// Lays out two packages in a store the way Bun's isolated installs do, and links this
 // project's node_modules/greeting into it:
 //
 //   <store>/node_modules/.store/greeting@1.0.0/node_modules/greeting         the package, which requires 'punctuation'
